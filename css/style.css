@@ -6,12 +6,35 @@
 .container{
     width: 800px;
     margin: auto;
+    font-family: 'Merriweather', serif;;
 }
 
 header{
-    height: 100px;
+    height: 80px;
     background-image: url(../img/pattern.png);
     background-size: 30%;
     background-color: rgb(39, 145, 231);
+    margin-bottom: 10px;
 }
 
+.sottotitolo{
+    color: rgb(156, 156, 156);
+}
+
+h2.sottotitolo{
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+h3.sottotitolo{
+    font-size: 12px;
+}
+
+.sottotitolo>span{
+    color: rgb(0, 162, 255);
+}
+
+main img{
+    height: 280px;
+    margin-top: 15px;
+}
