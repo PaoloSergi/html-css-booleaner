@@ -79,3 +79,24 @@ table{
 .colored{
     background-color: rgb(124, 206, 206);
 }
+
+footer span{
+    color:rgb(73, 73, 73);
+}
+
+footer div{
+    height: 150px;
+    width: 200px;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    margin-top: 10px;
+}
+
+.foto1{
+    background-image: url(../img/monitor.jpg);
+}
+
+.foto2{
+    background-image: url(../img/graph.jpg);
+}
