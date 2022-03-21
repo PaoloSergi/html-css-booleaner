@@ -15,6 +15,13 @@ header{
     background-size: 30%;
     background-color: rgb(39, 145, 231);
     margin-bottom: 10px;
+    position: relative;
+}
+
+header img{
+    position: absolute;
+    bottom: 0;
+    margin-left: 5px;
 }
 
 .sottotitolo{
@@ -53,21 +60,21 @@ p span{
 }
 
 ul {
-    /* list-style-type: none; */
     padding-left: 0;
     margin-left: 18px;
     margin-bottom: 20px;
 }
-/* .pseudotabella>span{
-    width: 250px;
-} */
 
 table{
-    /* table-layout: fixed;
-    column-width: 200px; */
-    border:1px solid;
     width:100%;
-    height:auto;
-    border-collapse: collapse;
     table-layout:fixed;
+}
+
+.head{
+    background-color: rgb(31, 121, 206);
+    color: white;
+}
+
+.colored{
+    background-color: rgb(124, 206, 206);
 }
