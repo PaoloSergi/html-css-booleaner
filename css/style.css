@@ -48,8 +48,26 @@ main p{
     margin-bottom: 20px;
 }
 
+p span{
+    background-color: yellow;
+}
+
 ul {
     /* list-style-type: none; */
     padding-left: 0;
     margin-left: 18px;
+    margin-bottom: 20px;
+}
+/* .pseudotabella>span{
+    width: 250px;
+} */
+
+table{
+    /* table-layout: fixed;
+    column-width: 200px; */
+    border:1px solid;
+    width:100%;
+    height:auto;
+    border-collapse: collapse;
+    table-layout:fixed;
 }
